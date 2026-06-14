@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d1c604de2dab84a9e91470d65a200a, type: 3}
+  m_Name: TurnSystemStaticData
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.TurnSystem.Data.TurnSystemData
+  TurnDuration: 30
+  OnTurnStarted: {fileID: 11400000, guid: e4ee99daa52555d489db8445da6dbd75, type: 2}
+  OnTurnEnded: {fileID: 11400000, guid: e61a60270e3a3d74398f8797a1abd921, type: 2}
+  OnTurnTimerUpdated: {fileID: 11400000, guid: a401510d21fba484ab05f290f67913b8, type: 2}
