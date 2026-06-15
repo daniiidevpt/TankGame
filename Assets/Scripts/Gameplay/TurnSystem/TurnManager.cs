@@ -11,8 +11,10 @@ namespace Gameplay.TurnSystem
     {
         [SerializeField] private TurnSystemData m_Data;
         [SerializeField] private CinemachineCamera m_Camera;
+        [SerializeField] private List<ITurnParticipant> m_Participants = new();
 
-        [SerializeField] private readonly List<ITurnParticipant> m_Participants = new();
+        public List<ITurnParticipant> Participants => m_Participants;
+        
         private int m_CurrentIndex = -1;
         private float m_ElapsedThisTurn;
         private int m_LastWholeSecondNotified;

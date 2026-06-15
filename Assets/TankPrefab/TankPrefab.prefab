@@ -51,6 +51,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b436e1a1a2102774bbc16207c7f795df, type: 2}
   - {fileID: 11400000, guid: f365a5cd81f7e15478ee6495fbcda90b, type: 2}
   m_Turret: {fileID: 4605594893218221910}
+  m_CameraTarget: {fileID: 8843542482230808560}
   references:
     version: 2
     RefIds: []
