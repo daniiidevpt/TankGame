@@ -1,8 +1,9 @@
-using Core.Interfaces;
+using Gameplay.TurnSystem.Interfaces;
 using Core.ModulesSystem;
 using Gameplay.Player.Modules;
 using Gameplay.TurnSystem;
 using UnityEngine;
+using Core.ModulesSystem.CommonModules;
 
 namespace Gameplay.Player
 {
@@ -18,6 +19,9 @@ namespace Gameplay.Player
         {
             AddModule<PlayerMovementModule>();
             AddModule<PlayerRotationModule>();
+
+            //Common Modules
+            AddModule<PickupModule>();
 
             base.Awake();
         }

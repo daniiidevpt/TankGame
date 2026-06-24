@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Core.Interfaces;
+using Gameplay.TurnSystem.Interfaces;
 using Core.SingletonSystem;
 using Gameplay.TurnSystem.Data;
 using Unity.Cinemachine;

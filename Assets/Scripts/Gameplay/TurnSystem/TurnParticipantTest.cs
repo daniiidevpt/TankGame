@@ -1,4 +1,4 @@
-using Core.Interfaces;
+using Gameplay.TurnSystem.Interfaces;
 using UnityEngine;
 
 namespace Gameplay.TurnSystem

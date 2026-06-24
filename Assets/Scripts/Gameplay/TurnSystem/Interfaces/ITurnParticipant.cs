@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Core.Interfaces
+namespace Gameplay.TurnSystem.Interfaces
 {
     public interface ITurnParticipant
     {
