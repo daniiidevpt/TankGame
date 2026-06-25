@@ -127,6 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44fb809a8a21c15478d23e2018d4a191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Projectiles.ProjectilePickup
+  m_ProjectilePrefab: {fileID: 6385837291407264262, guid: ac7f7672f2fe44c46af01094dbe4378a, type: 3}
+  m_FloatSpeed: 1
+  m_RotationSpeed: 90
 --- !u!1001 &8015326890085415831
 PrefabInstance:
   m_ObjectHideFlags: 0

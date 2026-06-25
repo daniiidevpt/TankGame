@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6970a6a784ba445b0e68a050bd8cc3, type: 3}
+  m_Name: ArcFlightData
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Projectiles.Data.ArcFlightData
+  Damage: 0
+  HitRadius: 0.2
+  HitLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  Lifetime: 5
+  Speed: 2
+  MinArcHeight: 0.5
+  MaxArcHeight: 8
+  ArcScaleDistance: 30
+  WobbleFrequency: 2
+  WobbleAmplitude: 0.3
